@@ -1,0 +1,77 @@
+.recipes-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.recipes-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.recipes-table th, .recipes-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.recipes-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.add-recipe-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-recipe-form {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 60%;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.add-recipe-form h3 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.add-recipe-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-recipe-form label {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.add-recipe-form input,
+.add-recipe-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.add-recipe-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-recipe-form button:hover {
+  background-color: #45a049;
+}
